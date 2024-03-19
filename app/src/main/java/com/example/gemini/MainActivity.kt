@@ -71,7 +71,7 @@ class MainActivity : ComponentActivity() {
 var data = mutableStateOf("")
 val generativeModel = GenerativeModel(
     modelName = "gemini-pro",
-    apiKey = "AIzaSyB6oNhckqTLfJxkqO0OuMwoQeKHz5ecnO8"
+    apiKey = "API Key"
 )
 @Composable
 fun Greeting(modifier: Modifier = Modifier) {
